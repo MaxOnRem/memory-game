@@ -99,7 +99,7 @@ const checkCards = (e) => {
 	}
 	//Run a check to see if we won the game
 	if (toggleCards.length === 16) {
-		restart('👍❤️ you won');
+		setTimeout(() => restart('👍❤️ you won'), 1300);
 	}
 };
 
